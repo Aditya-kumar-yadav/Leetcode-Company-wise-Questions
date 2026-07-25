@@ -349,6 +349,13 @@
             "difficulty": "Medium",
             "category": "sliding-window",
             "companies": []
+        },
+        {
+            "id": 2461,
+            "title": "Maximum Sum of Distinct Subarrays With Length K",
+            "difficulty": "Medium",
+            "category": "sliding-window",
+            "companies": []
         }
     ]
 }
