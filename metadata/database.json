@@ -342,6 +342,13 @@
             "difficulty": "Medium",
             "category": "graphs",
             "companies": []
+        },
+        {
+            "id": 1423,
+            "title": "Maximum Points You Can Obtain from Cards",
+            "difficulty": "Medium",
+            "category": "sliding-window",
+            "companies": []
         }
     ]
 }
