@@ -22,6 +22,7 @@ Welcome to my LeetCode solutions directory! All solutions here are written in **
 | **0269** | Alien Dictionary | 🟥 Hard | `Graphs` | **IBM**, **Microsoft**, **NVIDIA**, **Salesforce** | [🔗 Link](https://leetcode.com/problems/alien-dictionary/) | [💻 Code](./graphs/0269_alien_dictionary.hpp) |
 | **0329** | Longest Increasing Path in a Matrix | 🟥 Hard | `Dp` | **Flipkart**, **Intuit**, **Snap** | [🔗 Link](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | [💻 Code](./dp/0329_longest_increasing_path_in_a_matrix.hpp) |
 | **0542** | Zero One Matrix | 🟨 Medium | `Graphs` | **DEShaw**, **Snowflake** | [🔗 Link](https://leetcode.com/problems/zero-one-matrix/) | [💻 Code](./graphs/0542_zero_one_matrix.hpp) |
+| **0713** | Subarray Product Less Than K | 🟨 Medium | `Sliding-window` | **Amazon** | [🔗 Link](https://leetcode.com/problems/subarray-product-less-than-k/) | [💻 Code](./sliding-window/0713_subarray_product_less_than_k.hpp) |
 | **0721** | Accounts Merge | 🟨 Medium | `Graphs` | **JP Morgan** | [🔗 Link](https://leetcode.com/problems/accounts-merge/) | [💻 Code](./graphs/0721_accounts_merge.hpp) |
 | **0733** | Flood Fill | 🟩 Easy | `Graphs` | **Goldman Sachs** | [🔗 Link](https://leetcode.com/problems/flood-fill/) | [💻 Code](./graphs/0733_flood_fill.hpp) |
 | **0785** | Is Graph Bipartite? | 🟨 Medium | `Graphs` | **Databricks** | [🔗 Link](https://leetcode.com/problems/is-graph-bipartite?/) | [💻 Code](./graphs/0785_is_graph_bipartite?.hpp) |
@@ -30,6 +31,8 @@ Welcome to my LeetCode solutions directory! All solutions here are written in **
 | **0994** | Rotting Oranges | 🟨 Medium | `Graphs` | **Uber** | [🔗 Link](https://leetcode.com/problems/rotting-oranges/) | [💻 Code](./graphs/0994_rotting_oranges.hpp) |
 | **1020** | Number of Enclaves | 🟨 Medium | `Graphs` | **Snowflake** | [🔗 Link](https://leetcode.com/problems/number-of-enclaves/) | [💻 Code](./graphs/1020_number_of_enclaves.hpp) |
 | **1319** | Number of Operations to Make Network Connected | 🟨 Medium | `Graphs` | - | [🔗 Link](https://leetcode.com/problems/number-of-operations-to-make-network-connected/) | [💻 Code](./graphs/1319_number_of_operations_to_make_network_connected.hpp) |
+| **1423** | Maximum Points You Can Obtain from Cards | 🟨 Medium | `Sliding-window` | - | [🔗 Link](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/) | [💻 Code](./sliding-window/1423_maximum_points_you_can_obtain_from_cards.hpp) |
+| **2461** | Maximum Sum of Distinct Subarrays With Length K | 🟨 Medium | `Sliding-window` | - | [🔗 Link](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/) | [💻 Code](./sliding-window/2461_maximum_sum_of_distinct_subarrays_with_length_k.hpp) |
 
 [TABLE_END]
 
