@@ -274,6 +274,15 @@
             ]
         },
         {
+            "id": 713,
+            "title": "Subarray Product Less Than K",
+            "difficulty": "Medium",
+            "category": "sliding-window",
+            "companies": [
+                "Amazon"
+            ]
+        },
+        {
             "id": 721,
             "title": "Accounts Merge",
             "difficulty": "Medium",
