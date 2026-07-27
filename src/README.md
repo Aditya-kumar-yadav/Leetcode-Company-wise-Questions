@@ -29,6 +29,7 @@ Welcome to my LeetCode solutions directory! All solutions here are written in **
 | **0802** | Find Eventual Safe States | 🟨 Medium | `Graphs` | **Intuit** | [🔗 Link](https://leetcode.com/problems/find-eventual-safe-states/) | [💻 Code](./graphs/0802_find_eventual_safe_states.hpp) |
 | **0827** | Making A Large Island | 🟥 Hard | `Graphs` | **PayPal** | [🔗 Link](https://leetcode.com/problems/making-a-large-island/) | [💻 Code](./graphs/0827_making_a_large_island.hpp) |
 | **0994** | Rotting Oranges | 🟨 Medium | `Graphs` | **Uber** | [🔗 Link](https://leetcode.com/problems/rotting-oranges/) | [💻 Code](./graphs/0994_rotting_oranges.hpp) |
+| **1004** | Max Consecutive Ones III | 🟨 Medium | `Sliding-window` | **Citadel** | [🔗 Link](https://leetcode.com/problems/max-consecutive-ones-iii/) | [💻 Code](./sliding-window/1004_max_consecutive_ones_iii.hpp) |
 | **1020** | Number of Enclaves | 🟨 Medium | `Graphs` | **Snowflake** | [🔗 Link](https://leetcode.com/problems/number-of-enclaves/) | [💻 Code](./graphs/1020_number_of_enclaves.hpp) |
 | **1319** | Number of Operations to Make Network Connected | 🟨 Medium | `Graphs` | - | [🔗 Link](https://leetcode.com/problems/number-of-operations-to-make-network-connected/) | [💻 Code](./graphs/1319_number_of_operations_to_make_network_connected.hpp) |
 | **1423** | Maximum Points You Can Obtain from Cards | 🟨 Medium | `Sliding-window` | - | [🔗 Link](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/) | [💻 Code](./sliding-window/1423_maximum_points_you_can_obtain_from_cards.hpp) |

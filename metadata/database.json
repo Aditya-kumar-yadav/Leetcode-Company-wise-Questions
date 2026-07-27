@@ -337,6 +337,15 @@
             ]
         },
         {
+            "id": 1004,
+            "title": "Max Consecutive Ones III",
+            "difficulty": "Medium",
+            "category": "sliding-window",
+            "companies": [
+                "Citadel"
+            ]
+        },
+        {
             "id": 1020,
             "title": "Number of Enclaves",
             "difficulty": "Medium",
