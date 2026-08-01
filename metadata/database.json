@@ -47,6 +47,48 @@
             ]
         },
         {
+            "id": 3,
+            "title": "Longest Substring Without Repeating Characters",
+            "difficulty": "Medium",
+            "category": "sliding-window",
+            "companies": [
+                "Adobe",
+                "Amazon",
+                "Apple",
+                "BlackRock",
+                "Bloomberg",
+                "Cisco",
+                "DEShaw",
+                "Dell",
+                "Deolite",
+                "Goldman Sachs",
+                "Google",
+                "IBM",
+                "Intel",
+                "Intuit",
+                "JP Morgan",
+                "Linkedln",
+                "Meta",
+                "Microsoft",
+                "Morgan Stanley",
+                "NVIDIA",
+                "Netflix",
+                "Oracle",
+                "PayPal",
+                "Qualcomm",
+                "Salesforce",
+                "ServiceNow",
+                "Spotify",
+                "Swiggy",
+                "Tesla",
+                "Twitter",
+                "Uber",
+                "Visa",
+                "Walmart",
+                "Yahoo"
+            ]
+        },
+        {
             "id": 11,
             "title": "Container With Most Water",
             "difficulty": "Medium",
@@ -298,6 +340,15 @@
             "category": "graphs",
             "companies": [
                 "Goldman Sachs"
+            ]
+        },
+        {
+            "id": 743,
+            "title": "Network Delay Time",
+            "difficulty": "Medium",
+            "category": "graphs",
+            "companies": [
+                "Bloomberg"
             ]
         },
         {
