@@ -47,7 +47,7 @@ public:
 
         int provinces = 0;
         for (std::size_t i = 0; i < n; ++i) {
-            if (parent[i] == static_int_cast(int, i) || parent[i] == static_cast<int>(i)) {
+            if (parent[i] == static_cast<int>(i)) {
                 provinces++;
             }
         }
