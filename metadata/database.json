@@ -316,6 +316,16 @@
             ]
         },
         {
+            "id": 547,
+            "title": "Number of Provinces",
+            "difficulty": "Medium",
+            "category": "graphs",
+            "companies": [
+                "Databricks",
+                "Flipkart"
+            ]
+        },
+        {
             "id": 713,
             "title": "Subarray Product Less Than K",
             "difficulty": "Medium",
