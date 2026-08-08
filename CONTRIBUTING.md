@@ -1,8 +1,8 @@
-# 🤝 Contributing to algo-engineering-cpp
+# 🤝 Contributing to dsa-engineering-cpp
 
 First off, thank you for considering contributing to this repository. We are building the cleanest, most scalable LeetCode solution architecture on GitHub. 
 
-To maintain our enterprise-grade standards, this project relies on a fully automated CI/CD pipeline, Test-Driven Development (TDD), and dynamic build systems. **Your focus should remain entirely on writing optimal C++ code and robust tests—our automation handles the rest.**
+To maintain our enterprise-grade standards, this project relies on a fully automated CI/CD pipeline (ci-cd), Test-Driven Development (TDD / tdd), and dynamic build systems. **Your focus should remain entirely on writing optimal C++ (cpp / cplusplus) code and robust tests (gtest)—our automation handles the rest.**
 
 ---
 
@@ -23,8 +23,8 @@ Please follow this standardized workflow to ensure your contributions pass our p
 ### 1. Fork, Clone, and Branch
 Begin by forking the repository and creating an isolated branch for your solution.
 ```bash
-git clone [https://github.com/Aditya-kumar-yadav/algo-engineering-cpp.git](https://github.com/Aditya-kumar-yadav/algo-engineering-cpp.git)
-cd algo-engineering-cpp
+git clone https://github.com/Aditya-kumar-yadav/dsa-engineering-cpp.git
+cd dsa-engineering-cpp
 git checkout -b feat/add-two-sum
 ```
 
@@ -42,8 +42,8 @@ python scripts/start.py --id 20 --topic stacks --title "Valid Parentheses" --dif
 ```
 
 ### 3. Implement and Test (TDD)
-1. **The Logic:** Navigate to the generated `.hpp` file in the `src/` directory and implement your optimal solution.
-2. **The Validation:** Navigate to the corresponding `_test.cpp` file in the `tests/` directory and write your **Google Test (GTest)** assertions. 
+1. **The Logic:** Navigate to the generated `.hpp` file in the `src/` directory and implement your optimal solution for data-structures and algorithms (dsa).
+2. **The Validation:** Navigate to the corresponding `_test.cpp` file in the `tests/` directory and write your **Google Test (GTest / gtest)** assertions. 
    * *Code submitted without comprehensive tests covering edge cases will not be merged.*
 
 ### 4. Pre-Commit Validation (Required)
@@ -86,7 +86,8 @@ Our GitHub Actions pipeline will automatically compile your code, execute the te
 
 If you are unable to use the Python scaffolding script, you must manually create your files with exact precision. **Failure to adhere to these naming conventions will cause the dynamic CMake build to ignore your files.**
 
-1. **Source File (`src/`):** * Format: `[ID]_[problem_name].hpp` (e.g., `0001_two_sum.hpp`).
+1. **Source File (`src/`):** 
+   * Format: `[ID]_[problem_name].hpp` (e.g., `0001_two_sum.hpp`).
    * It **must** include this exact metadata header block at the top of the file:
      ```cpp
      /* * ID: 1 

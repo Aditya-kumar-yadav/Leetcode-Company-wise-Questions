@@ -1,13 +1,13 @@
-# 🚀 algo-engineering-cpp
+# 🚀 dsa-engineering-cpp
 
-[![CI Pipeline](https://github.com/Aditya-kumar-yadav/algo-engineering-cpp/actions/workflows/ci.yml/badge.svg)](https://github.com/Aditya-kumar-yadav/algo-engineering-cpp/actions)
+[![CI Pipeline](https://github.com/Aditya-kumar-yadav/dsa-engineering-cpp/actions/workflows/ci.yml/badge.svg)](https://github.com/Aditya-kumar-yadav/dsa-engineering-cpp/actions)
 [![Language](https://img.shields.io/badge/Language-C%2B%2B17-blue.svg)](https://isocpp.org/)
 [![Build System](https://img.shields.io/badge/Build-CMake-orange.svg)](https://cmake.org/)
 [![Testing](https://img.shields.io/badge/Testing-GoogleTest-green.svg)](https://github.com/google/googletest)
 
-A scalable, fully automated architecture for solving algorithmic problems using modern software engineering practices.
+A scalable, fully automated architecture for solving data-structures and algorithms (dsa) problems using modern software engineering practices.
 
-This repository transcends standard competitive programming storage by enforcing production-level constraints, including **Test-Driven Development (TDD)**, **Continuous Integration (CI)**, and **Dynamic Build Systems**. 
+This repository communicates production-grade engineering rather than just another student storing LeetCode answers. It transcends standard competitive programming storage by enforcing production-level constraints, including **Test-Driven Development (TDD / tdd)**, **Continuous Integration (CI/CD / ci-cd)**, and **Dynamic Build Systems**. 
 
 The goal is to treat algorithmic problem-solving with the exact engineering discipline required in top-tier corporate environments.
 
@@ -15,8 +15,8 @@ The goal is to treat algorithmic problem-solving with the exact engineering disc
 
 ## ✨ Core Features
 
-* **Modern Standards:** Highly optimized **C++17** solutions.
-* **Automated Validation:** Strict unit testing via **Google Test**.
+* **Modern Standards:** Highly optimized **C++17** (cpp / cplusplus) solutions.
+* **Automated Validation:** Strict unit testing via **Google Test** (gtest).
 * **Dynamic Compilation:** Zero-touch build system via **CMake**.
 * **CI/CD Integration:** Autonomous pipeline execution via **GitHub Actions**.
 * **Self-Documenting:** Python-driven metadata extraction and markdown generation.
@@ -26,7 +26,7 @@ The goal is to treat algorithmic problem-solving with the exact engineering disc
 ## 🏗️ System Architecture
 
 ```text
-📦 algo-engineering-cpp
+📦 dsa-engineering-cpp
  ┣ 📂 .github/workflows   # GitHub Actions CI/CD pipelines
  ┣ 📂 hubs                # Auto-generated company & topic indexes
  ┣ 📂 metadata            # Core JSON database tracking all solutions
@@ -66,8 +66,8 @@ The `/scripts` directory operates as the backbone of this repository:
 ### Quick Start
 ```bash
 # 1. Clone the repository
-git clone [https://github.com/Aditya-kumar-yadav/algo-engineering-cpp.git](https://github.com/Aditya-kumar-yadav/algo-engineering-cpp.git)
-cd algo-engineering-cpp
+git clone https://github.com/Aditya-kumar-yadav/dsa-engineering-cpp.git
+cd dsa-engineering-cpp
 
 # 2. Configure the build environment
 cmake -B build -S .
