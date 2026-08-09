@@ -15,6 +15,12 @@ else()
     add_compile_options(-Wall -Wextra -Werror)
 endif()
 
+# Enable AddressSanitizer and UndefinedBehaviorSanitizer for Debug builds
+if(CMAKE_BUILD_TYPE MATCHES Debug)
+    add_compile_options(-fsanitize=address,undefined -fno-omit-frame-pointer)
+    add_link_options(-fsanitize=address,undefined)
+endif()
+
 # Download and incorporate Google Test
 include(FetchContent)
 FetchContent_Declare(

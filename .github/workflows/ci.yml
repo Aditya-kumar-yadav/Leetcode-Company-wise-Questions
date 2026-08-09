@@ -36,7 +36,7 @@ jobs:
 
     # --- 3. COMPILATION & TESTING ---
     - name: Configure CMake
-      run: cmake -B build -S .
+      run: cmake -B build -S . -DCMAKE_BUILD_TYPE=Debug
 
     - name: Build Codebase
       run: cmake --build build
