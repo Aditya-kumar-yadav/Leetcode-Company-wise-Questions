@@ -17,6 +17,7 @@ The goal is to treat algorithmic problem-solving with the exact engineering disc
 
 * **Modern Standards:** Highly optimized **C++17** (cpp / cplusplus) solutions.
 * **Automated Validation:** Strict unit testing via **Google Test** (gtest).
+* **Memory Safety Enforcement:** CI/CD pipeline hardened with **AddressSanitizer (ASan)** and **UndefinedBehaviorSanitizer (UBSan)** to guarantee leak-free, production-safe memory management.
 * **Dynamic Compilation:** Zero-touch build system via **CMake**.
 * **CI/CD Integration:** Autonomous pipeline execution via **GitHub Actions**.
 * **Self-Documenting:** Python-driven metadata extraction and markdown generation.
