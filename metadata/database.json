@@ -152,6 +152,32 @@
             ]
         },
         {
+            "id": 37,
+            "title": "Sudoku Solver",
+            "difficulty": "Hard",
+            "category": "recursion",
+            "companies": [
+                "Amazon",
+                "Apple",
+                "Atlassian",
+                "Bloomberg",
+                "Cisco",
+                "Google",
+                "IBM",
+                "Meta",
+                "Microsoft",
+                "Morgan Stanley",
+                "NVIDIA",
+                "Netflix",
+                "Oracle",
+                "PayPal",
+                "Salesforce",
+                "ServiceNow",
+                "Snap",
+                "Snowflake"
+            ]
+        },
+        {
             "id": 104,
             "title": "Maximum Depth of Binary Tree",
             "difficulty": "Easy",
