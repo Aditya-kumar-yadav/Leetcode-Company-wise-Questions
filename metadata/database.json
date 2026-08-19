@@ -202,6 +202,29 @@
             ]
         },
         {
+            "id": 60,
+            "title": "Permutation Sequence",
+            "difficulty": "Hard",
+            "category": "recursion",
+            "companies": [
+                "Adobe",
+                "Amazon",
+                "Apple",
+                "Bloomberg",
+                "Flipkart",
+                "Goldman Sachs",
+                "JP Morgan",
+                "Meta",
+                "Microsoft",
+                "Morgan Stanley",
+                "Oracle",
+                "Salesforce",
+                "Snap",
+                "Uber",
+                "Walmart"
+            ]
+        },
+        {
             "id": 79,
             "title": "Word Search",
             "difficulty": "Medium",
