@@ -202,6 +202,27 @@
             ]
         },
         {
+            "id": 79,
+            "title": "Word Search",
+            "difficulty": "Medium",
+            "category": "recursion",
+            "companies": [
+                "Amazon",
+                "Bloomberg",
+                "Cisco",
+                "DEShaw",
+                "Goldman Sachs",
+                "Intel",
+                "Microsoft",
+                "NVIDIA",
+                "Oracle",
+                "Qualcomm",
+                "Uber",
+                "Walmart",
+                "Yahoo"
+            ]
+        },
+        {
             "id": 104,
             "title": "Maximum Depth of Binary Tree",
             "difficulty": "Easy",
