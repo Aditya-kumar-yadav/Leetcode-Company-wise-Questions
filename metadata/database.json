@@ -202,6 +202,30 @@
             ]
         },
         {
+            "id": 55,
+            "title": "Jump Game",
+            "difficulty": "Medium",
+            "category": "greedy",
+            "companies": [
+                "Adobe",
+                "Amazon",
+                "Apple",
+                "Atlassian",
+                "Bloomberg",
+                "Databricks",
+                "Goldman Sachs",
+                "Google",
+                "Linkedln",
+                "Meta",
+                "Microsoft",
+                "Netflix",
+                "Oracle",
+                "PayPal",
+                "Uber",
+                "Visa"
+            ]
+        },
+        {
             "id": 60,
             "title": "Permutation Sequence",
             "difficulty": "Hard",
