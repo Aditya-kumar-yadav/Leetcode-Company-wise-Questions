@@ -424,6 +424,16 @@
             ]
         },
         {
+            "id": 455,
+            "title": "Assign Cookies",
+            "difficulty": "Easy",
+            "category": "greedy",
+            "companies": [
+                "Citadel",
+                "Goldman Sachs"
+            ]
+        },
+        {
             "id": 542,
             "title": "Zero One Matrix",
             "difficulty": "Medium",
