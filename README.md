@@ -1,41 +1,52 @@
-# 🚀 dsa-engineering-cpp
+<div align="center">
+
+# 🚀 DSA Engineering: C++ Architecture
 
 [![CI Pipeline](https://github.com/Aditya-kumar-yadav/dsa-engineering-cpp/actions/workflows/ci.yml/badge.svg)](https://github.com/Aditya-kumar-yadav/dsa-engineering-cpp/actions)
-[![Language](https://img.shields.io/badge/Language-C%2B%2B17-blue.svg)](https://isocpp.org/)
-[![Build System](https://img.shields.io/badge/Build-CMake-orange.svg)](https://cmake.org/)
-[![Testing](https://img.shields.io/badge/Testing-GoogleTest-green.svg)](https://github.com/google/googletest)
+[![Language](https://img.shields.io/badge/Language-C%2B%2B17-00599C.svg?logo=c%2B%2B)](https://isocpp.org/)
+[![Build System](https://img.shields.io/badge/Build-CMake-064F8C.svg?logo=cmake)](https://cmake.org/)
+[![Testing](https://img.shields.io/badge/Testing-GoogleTest-209E5A.svg?logo=testing-library)](https://github.com/google/googletest)
+[![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20macOS%20%7C%20Windows-lightgrey.svg)]()
 
-A scalable, fully automated architecture for solving data-structures and algorithms (dsa) problems using modern software engineering practices.
+**A scalable, fully automated architecture for Data Structures and Algorithms (DSA) utilizing modern software engineering practices.**
 
-This repository communicates production-grade engineering rather than just another student storing LeetCode answers. It transcends standard competitive programming storage by enforcing production-level constraints, including **Test-Driven Development (TDD / tdd)**, **Continuous Integration (CI/CD / ci-cd)**, and **Dynamic Build Systems**. 
-
-The goal is to treat algorithmic problem-solving with the exact engineering discipline required in top-tier corporate environments.
-
----
-
-## ✨ Core Features
-
-* **Modern Standards:** Highly optimized **C++17** (cpp / cplusplus) solutions.
-* **Automated Validation:** Strict unit testing via **Google Test** (gtest).
-* **Memory Safety Enforcement:** CI/CD pipeline hardened with **AddressSanitizer (ASan)** and **UndefinedBehaviorSanitizer (UBSan)** to guarantee leak-free, production-safe memory management.
-* **Dynamic Compilation:** Zero-touch build system via **CMake**.
-* **CI/CD Integration:** Autonomous pipeline execution via **GitHub Actions**.
-* **Self-Documenting:** Python-driven metadata extraction and markdown generation.
+</div>
 
 ---
 
-## 🏗️ System Architecture
+## 📖 Overview
+
+This repository is built on a core philosophy: **Algorithms should be treated with the exact engineering rigor required in top-tier backend environments.** 
+
+Instead of serving as a static archive of competitive programming solutions, this repository enforces production-grade enterprise constraints. Every implementation is subjected to **Test-Driven Development (TDD)**, validated by **Continuous Integration (CI/CD)** pipelines, and managed through a **Dynamic Build System**.
+
+---
+
+## ✨ Core Engineering Features
+
+* ⚡ **Modern Standards:** Highly optimized **C++17** solutions designed for minimal latency and strict space/time complexity.
+* 🧪 **Automated Validation:** Comprehensive unit testing infrastructure powered by **Google Test (gtest)** to guarantee edge-case resilience.
+* 🛡️ **Memory Safety:** CI/CD pipelines fortified with **AddressSanitizer (ASan)** and **UndefinedBehaviorSanitizer (UBSan)** to ensure leak-free, production-safe memory management.
+* 🏗️ **Dynamic Compilation:** Zero-touch, cross-platform build configurations orchestrated by **CMake**.
+* 🔄 **CI/CD Integration:** Autonomous pipeline execution via **GitHub Actions** upon every commit and pull request.
+* 🤖 **Self-Documenting:** Custom Python tooling (`/scripts`) that autonomously extracts metadata, generates indexes, and updates markdown documentation.
+
+---
+
+## 🏛️ System Architecture
+
+Our modular directory structure enforces a strict separation of concerns between source code, test assertions, and automation logic:
 
 ```text
 📦 dsa-engineering-cpp
- ┣ 📂 .github/workflows   # GitHub Actions CI/CD pipelines
- ┣ 📂 hubs                # Auto-generated company & topic indexes
- ┣ 📂 metadata            # Core JSON database tracking all solutions
- ┣ 📂 scripts             # Python automation and pipeline utilities
- ┣ 📂 src                 # C++ algorithmic implementations (.hpp)
- ┣ 📂 tests               # Google Test assertions (_test.cpp)
- ┣ 📜 CMakeLists.txt      # Dynamic build configuration
- ┣ 📜 CONTRIBUTING.md     # Developer workflow and Git hygiene rules
+ ┣ 📂 .github/workflows   # GitHub Actions CI/CD deployment pipelines
+ ┣ 📂 hubs                # Auto-generated company & topic indexing
+ ┣ 📂 metadata            # Central JSON database tracking all solutions
+ ┣ 📂 scripts             # Python automation and repository utilities
+ ┣ 📂 src                 # Core C++ algorithmic implementations (.hpp)
+ ┣ 📂 tests               # Google Test assertions and test suites (_test.cpp)
+ ┣ 📜 CMakeLists.txt      # Master dynamic build configuration
+ ┣ 📜 CONTRIBUTING.md     # Developer workflow and Git hygiene standards
  ┗ 📜 README.md           # Autonomously updated entry point
 ```
 
@@ -43,17 +54,19 @@ The goal is to treat algorithmic problem-solving with the exact engineering disc
 
 ## ⚙️ The Engineering Lifecycle
 
+Our workflow guarantees that the main branch remains stable and production-ready at all times:
+
 ```text
-[ Problem Solved ] ➔ [ Google Tests Written ] ➔ [ Git Commit ] ➔ [ GitHub Push ]
-                                                                        ⬇
-[ Docs Regenerated ] ⬅ [ Metadata Extracted ] ⬅ [ CMake Build + Tests Pass ]
+[ 💡 Problem Solved ] ➔ [ 🧪 Google Tests Written ] ➔ [ 📝 Git Commit & Push ]
+                                                                 ⬇
+[ 📄 Docs Regenerated ] ⬅ [ 📊 Metadata Extracted ] ⬅ [ ⚙️ CI: CMake + Tests Pass ]
 ```
 
-### 🔧 Automation Tooling (Local & CI)
-The `/scripts` directory operates as the backbone of this repository:
-* `start.py`: Scaffolds C++ boilerplate, test files, and ensures standardized naming.
-* `auto_discover.py`: Acts as a gatekeeper, scanning for duplicate IDs and validating JSON metadata.
-* `generate_docs.py`: Autonomously builds Markdown tables, hubs, and repository indexes.
+### 🔧 Automation Tooling
+The `/scripts` directory operates as the autonomous brain of this repository:
+* `start.py`: Scaffolds C++ boilerplate and test environments, strictly enforcing naming conventions.
+* `auto_discover.py`: A pipeline gatekeeper that scans for duplicate IDs and validates JSON metadata integrity.
+* `generate_docs.py`: Autonomously builds Markdown tables, updates hubs, and maintains the global repository index.
 
 ---
 
@@ -65,6 +78,7 @@ The `/scripts` directory operates as the backbone of this repository:
 * **C++17** compatible compiler (GCC, Clang, or MSVC)
 
 ### Quick Start
+
 ```bash
 # 1. Clone the repository
 git clone https://github.com/Aditya-kumar-yadav/dsa-engineering-cpp.git
@@ -76,7 +90,7 @@ cmake -B build -S .
 # 3. Compile the project
 cmake --build build
 
-# 4. Execute the test suite
+# 4. Execute the test suite locally
 cd build && ctest --output-on-failure
 ```
 
@@ -84,22 +98,6 @@ cd build && ctest --output-on-failure
 
 ## 📊 Problem Database & Analytics
 
-Our CI/CD pipeline autonomously maintains a central index tracking difficulty curves, company-wise frequencies, and algorithm categorization. 
+Our CI/CD pipeline autonomously maintains a central index that tracks difficulty curves, company-wise problem frequencies, and granular algorithm categorization. 
 
-📄 **[View Complete Solution Index](./src/README.md)** *(Auto-generated upon merge)*
-
----
-
-## 🤝 Contributing
-
-We enforce strict rules regarding git hygiene, build modification, and testing to keep the main branch pristine. 
-
-If you are interested in optimizing existing logic or expanding the test coverage, please read our **[Contributing Guidelines](CONTRIBUTING.md)** before opening a Pull Request.
-
----
-## 📫 Connect
-
-Built for developers interested in backend systems, C++ architecture, and automated workflows. Feel free to explore the codebase or reach out to discuss scalable engineering.
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)](https://www.linkedin.com/in/aditya-yadav-43442b323/)
-[![LeetCode](https://img.shields.io/badge/LeetCode-Profile-orange?logo=leetcode)](https://leetcode.com/u/AdiTheOP/)
+📄 **[View the Complete Solution Index](./src/README.md)** *(Autonomously generated upon successful merge)*
