@@ -572,6 +572,13 @@
             "difficulty": "Medium",
             "category": "sliding-window",
             "companies": []
+        },
+        {
+            "id": 3568,
+            "title": "Minimum Moves to Clean the Classroom",
+            "difficulty": "Medium",
+            "category": "graphs",
+            "companies": []
         }
     ]
 }
