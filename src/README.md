@@ -44,6 +44,7 @@ Welcome to my LeetCode solutions directory! All solutions here are written in **
 | **1319** | Number of Operations to Make Network Connected | 🟨 Medium | `Graphs` | - | [🔗 Link](https://leetcode.com/problems/number-of-operations-to-make-network-connected/) | [💻 Code](./graphs/1319_number_of_operations_to_make_network_connected.hpp) |
 | **1423** | Maximum Points You Can Obtain from Cards | 🟨 Medium | `Sliding-window` | - | [🔗 Link](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/) | [💻 Code](./sliding-window/1423_maximum_points_you_can_obtain_from_cards.hpp) |
 | **2461** | Maximum Sum of Distinct Subarrays With Length K | 🟨 Medium | `Sliding-window` | - | [🔗 Link](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/) | [💻 Code](./sliding-window/2461_maximum_sum_of_distinct_subarrays_with_length_k.hpp) |
+| **3568** | Minimum Moves to Clean the Classroom | 🟨 Medium | `Graphs` | - | [🔗 Link](https://leetcode.com/problems/minimum-moves-to-clean-the-classroom/) | [💻 Code](./graphs/3568_minimum_moves_to_clean_the_classroom.hpp) |
 
 [TABLE_END]
 
